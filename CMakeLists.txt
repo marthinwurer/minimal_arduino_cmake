@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 set(ARDUINO_DEFAULT_BOARD uno)
-set(ARDUINO_DEFAULT_PORT /dev/ttyACM0)
+set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0)
 
 generate_arduino_firmware(inc SRCS inc.cpp)
 
